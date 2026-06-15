@@ -74,10 +74,15 @@ Vérifiez la section "Inspection du plateau de sortie" en bas du script pour vou
 
 ### 5. Lancer l'automatisation
 
-Ajoutez vos fichiers à Git : git add .
+Ajoutez vos fichiers à Git : 
 
-Validez : git commit -m "Mise en place de la CI"
+```bash
+git add .
 
-Envoyez sur votre propre dépôt GitHub : git push -u origin main
+git commit -m "Mise en place de la CI"
 
-Allez sur la page de votre dépôt GitHub, cliquez sur l'onglet Actions et admirez la machine virtuelle valider votre code !
+git push -u origin main
+
+```
+
+Allez sur la page de votre dépôt GitHub, cliquez sur l'onglet Actions et admirez la machine virtuelle valider votre code ! En fonction du résultat du test, vous saurez si vos modification sont fonctionelles !
