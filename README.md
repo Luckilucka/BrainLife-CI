@@ -66,7 +66,13 @@ Un fichier mini_eeg.fif (très léger) sera généré à la racine. Vous pouvez 
 
 Ouvrez le fichier test_app.py.
 
-Modifiez la variable pointant vers le dossier de votre application (cherchez la ligne __chemin_origine_main = os.path.join(script_dir, '...', 'main.py')__).
+Modifiez la variable pointant vers le dossier de votre application (cherchez la ligne :
+
+```bash
+chemin_origine_main = os.path.join(script_dir, '...', 'main.py')
+```
+
+, ce sont ces 3 petits points à modifier par votre nom de dossier.)
 
 Ajustez le dictionnaire config pour qu'il corresponde aux entrées attendues par le config.json de votre application.
 
